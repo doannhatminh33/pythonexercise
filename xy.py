@@ -16,7 +16,7 @@ def eq(x,y):
             elif x <(y+1)/2:
                 x*=2
                 count+=1
-            elif x == (y+1)/2:
+            else:
                 x*=2
                 count+=1
                 x-=1
