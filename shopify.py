@@ -1,5 +1,4 @@
 import requests
-import base64
 import csv
 session = requests.Session()
 passapi="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"
