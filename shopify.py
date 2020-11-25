@@ -12,7 +12,7 @@ csv_columns = []
 for i in resp.json()['customers'][0].keys():
     if i != "addresses":
         csv_columns.append(i)
-
+ 
 dict_data = resp.json()['customers']
 for i in dict_data:
     i.pop('addresses')
